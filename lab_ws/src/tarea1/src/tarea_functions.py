@@ -63,7 +63,7 @@ def fkine_kukakr6(q):
     l6 = 0.08
 
     # Matrices DH (completar), emplear la funcion dh con los parametros DH para cada articulacion
-    T1 = dh(l1, q[0], l2, -pi/2)
+    T1 = dh(l1, -q[0], l2, -pi/2)
     T2 = dh(0, q[1], l3, 0)
     T3 = dh(0, -pi/2+q[2], l4, pi/2)
     T4 = dh(-l5, q[3], 0, -pi/2)
