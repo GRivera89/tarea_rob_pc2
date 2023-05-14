@@ -12,7 +12,7 @@ $ git clone https://github.com/ros-industrial/kuka_experimental.git
 $ cd ..  
 $ catkin_make  
 ### Setear source
-En caso descargar los archivos en la raíz del terminal, ejecutar el siguiente comando:
+En caso descargar los archivos en la raíz del terminal, ejecutar el siguiente comando:  
 $ source /home/user/tarea_rob_pc2/lab_ws/devel/setup.bash  
 ## Simulación en RVIZ
 En un terminal ejecutar el siguiente comando:  
